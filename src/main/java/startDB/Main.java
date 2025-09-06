@@ -79,10 +79,10 @@ public class Main {
                 if (conflito2) apta2 = false;
 
                 // Aqui vamos verificar se nenhum dos 2 OU os 2 podem adota, vai pro abrigo (tadinho)
-                if ((!apta1 && !apta2) || (apta1 && apta2)) {
-                    resultado.put(nomeAnimal, "Abrigo");
-                    continue; // passa para o próximo animal
-                }
+            }
+            if ((!apta1 && !apta2) || (apta1 && apta2)) {
+                resultado.put(nomeAnimal, "Abrigo");
+                continue; // passa para o próximo animal
             }
 
             if (apta1) {

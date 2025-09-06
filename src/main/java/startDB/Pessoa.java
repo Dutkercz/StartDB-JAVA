@@ -18,7 +18,7 @@ public class Pessoa {
     }
 
     public boolean aptaPara(Animal animal) {
-        if (animal.getNome().equals("loco")) {
+        if (animal.getNome().equals("Loco")) {
             return this.animaisAdotados.size() > 0;
         }
 
